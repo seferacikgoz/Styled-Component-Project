@@ -6,8 +6,9 @@ const style ={
     body:"#fff",
     footer:"#8A1C4A"
   },
-
-}
+  margins:{},
+  responsive:"768px",
+};
 
 const App = () => {
   return (
