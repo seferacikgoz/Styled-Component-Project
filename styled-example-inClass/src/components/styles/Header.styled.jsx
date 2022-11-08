@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header`
  background-color: ${({theme})=> theme.colors.header};
+ max-width: ${({theme}) => theme["max-width"]};
+ margin: auto;
  padding: 4rem 0;
 `;
 
