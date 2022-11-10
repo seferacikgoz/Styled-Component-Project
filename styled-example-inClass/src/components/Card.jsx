@@ -1,5 +1,6 @@
 import React from 'react'
 import content from "../data"
+import { CardImg, Main } from './styles/Card.styled';
 
 const Card = () => {
   return (
@@ -7,15 +8,15 @@ const Card = () => {
     {content.map((item) =>{
       const { id, body, title, image} = item;
       return(
-          <div>
+          <Main>
             <div>
-            <img src="" alt="" />
+            <CardImg src={`./images/${image}`}/>
             </div>
           <div>
           <h1>{title}</h1>
           <p>{body}</p>
           </div>
-          </div>
+          </Main>
       );
     })}
     </>
