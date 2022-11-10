@@ -8,7 +8,7 @@ const Card = () => {
     {content.map((item) =>{
       const { id, body, title, image} = item;
       return(
-          <Main>
+          <Main key={id} id={id}>
             <div>
             <CardImg src={`./images/${image}`}/>
             </div>
