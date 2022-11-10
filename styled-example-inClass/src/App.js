@@ -6,7 +6,7 @@ import { GlobalStyles } from "./components/styles/Global.styled";
 const style ={
   colors:{
     header:"#fff",
-    body:"#eee",
+    body:"#fff",
     footer:"#8A1C4A"
   },
   margins:{},

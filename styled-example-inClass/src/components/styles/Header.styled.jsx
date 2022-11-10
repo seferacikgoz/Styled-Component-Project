@@ -24,7 +24,7 @@ justify-content: space-between;
 
 export const Image = styled(Logo)`
 @media (max-width: ${({theme}) => theme.responsive}){
-    flex-direction: column;
+    margin: 2rem 0;
 }
 `;
 
