@@ -11,11 +11,23 @@ export const Main = styled.div`
   margin: 1rem auto;
   gap: 3rem;
   max-width: ${({theme}) => theme["max-width"]};;
-  flex-direction: ${({id}) => (id % 2 ? "row" : "row-reverse") };
+  flex-direction: ${({id}) => (id % 2 === 1 ? "row" : "row-reverse") };
+
+  @media (max-width:${({theme}) => theme.responsive}) {
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const CardImg = styled.img`
- 
+ width: 90%;
+ object-fit: cover;
+ margin: 20px;
+ border-radius: 10px;
+ @media (max-width:${({theme}) => theme.responsive}) {
+    text-align: center;
+ }
 `;
 
 
