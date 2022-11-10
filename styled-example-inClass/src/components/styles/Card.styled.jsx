@@ -31,3 +31,13 @@ export const CardImg = styled.img`
 `;
 
 
+
+export const CardTitle = styled.h2`
+font-weight: bolder;
+margin: 1rem 0.4rem;
+`;
+
+
+
+
+
