@@ -9,6 +9,7 @@ const Footer = () => {
     <>
       <FooterDiv>
         <div>
+        <div>
           <img src="" alt="" />
         </div>
         <div>
@@ -41,6 +42,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
           </div>
+        </div>
         </div>
       </FooterDiv>
     </>
