@@ -1,6 +1,6 @@
 import React from 'react'
 import content from "../data"
-import { CardImg, CardTitle, Main } from './styles/Card.styled';
+import { CardImg, CardTitle, Description, Main } from './styles/Card.styled';
 
 const Card = () => {
   return (
@@ -14,7 +14,7 @@ const Card = () => {
             </div>
           <div>
           <CardTitle>{title}</CardTitle>
-          <p>{body}</p>
+          <Description>{body}</Description>
           </div>
           </Main>
       );
