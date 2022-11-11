@@ -2,7 +2,8 @@ import React from "react";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import FooterDiv, { FooterContent } from "./styles/Footer.styled";
+import FooterDiv, { FooterContent, FooterLogo } from "./styles/Footer.styled";
+
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
       <FooterDiv>
         <FooterContent>
         <div>
-          <img src="" alt="" />
+          <FooterLogo src="./images/logo_white.png" />
         </div>
         <div>
           <ul>
