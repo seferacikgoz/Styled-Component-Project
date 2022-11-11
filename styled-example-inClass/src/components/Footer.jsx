@@ -2,7 +2,7 @@ import React from "react";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import FooterDiv, { FooterContent, FooterLogo } from "./styles/Footer.styled";
+import FooterDiv, { FooterContent, FooterFlex, FooterLogo, SocialIcons } from "./styles/Footer.styled";
 
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <FooterLogo src="./images/logo_white.png" />
         </div>
-        <div>
+        <FooterFlex>
           <ul>
             <li>1775 Tysons Blvd. 5th Floor. Tysons, VA 22102</li>
             <li>+1 (571) 360 66 77</li>
@@ -32,7 +32,7 @@ const Footer = () => {
             <li>Contact Us</li>
           </ul>
 
-          <div>
+          <SocialIcons>
             <a href="http:/>/www.twitter.com">
               <FaTwitterSquare />
             </a>
@@ -42,8 +42,8 @@ const Footer = () => {
             <a href="http:/>/www.linkedin.com">
               <FaLinkedin />
             </a>
-          </div>
-        </div>
+          </SocialIcons>
+        </FooterFlex>
         </FooterContent>
       </FooterDiv>
     </>
