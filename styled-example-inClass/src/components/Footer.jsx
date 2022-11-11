@@ -2,13 +2,13 @@ import React from "react";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import FooterDiv from "./styles/Footer.styled";
+import FooterDiv, { FooterContent } from "./styles/Footer.styled";
 
 const Footer = () => {
   return (
     <>
       <FooterDiv>
-        <div>
+        <FooterContent>
         <div>
           <img src="" alt="" />
         </div>
@@ -43,7 +43,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        </div>
+        </FooterContent>
       </FooterDiv>
     </>
   );
