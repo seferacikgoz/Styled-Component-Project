@@ -47,8 +47,24 @@ export const FooterFlex = styled.div`
 `;
 
 
-export const SocialIcons = styled.div`
- 
+export const SocialIcons = styled(FooterFlex)`
+ align-items: center;
+ a{
+    color: ${({theme}) => theme.colors.header};
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+ }
+ @media (max-width: ${({theme}) => theme.responsive}) {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+ }
 `;
 
 
