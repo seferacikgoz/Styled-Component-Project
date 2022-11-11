@@ -32,6 +32,7 @@ export const FooterFlex = styled.div`
  justify-content: space-between;
  ul{
     list-style-type: none;
+    color: ${({theme}) => theme.colors.header};
  }
  li{
     margin-bottom: 1rem;
